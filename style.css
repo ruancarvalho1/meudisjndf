@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.cabecalho {
+  background-color: #383D58;
+  color: #FFF;
+  display: flex;
+  align-items: center;
+  padding: 16px;
+}
+
+.cabecalho-imagem {
+  width: 150px;
+}
+
+.cabecalho-nav {
+  margin-left: auto;
+}
+
+.cabecalho-nav a {
+  color: #FFF;
+  text-decoration: none;
+  margin-left: 24px;
+}
+
+.cabecalho-nav a:hover {
+  text-decoration: underline;
+}
+
+.escola {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 40px;
+  background-color: #21283a;
+  color: white;
+}
+
+.escola-info {
+  max-width: 500px;
+  text-align: center;
+}
+
+.escola-titulo {
+  font-size: 36px;
+  margin-bottom: 16px;
+}
+
+.escola-texto {
+  color: #ffffff;
+}
+
+.escola-imagem {
+  width: 600px;
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+  transform: rotate(0deg);
+}
+
+.estudante {
+  padding: 80px 40px;
+  text-align: center;
+}
+
+.estudante h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.estudante-todos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+  background-color: #21283a;
+}
+
+.aluno {
+  border: 1px solid #21283a;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px #21283a;
+  background-color: #21283a;
+}
+
+.imagem-estudante {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 16px;
+}
+
+.texto-aluno h3 {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.texto-aluno p {
+  color: #ffffff;
+}
+
+.instagram-logo {
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+}
+
+/* Opcional: Estilize as logos do Instagram para que sejam mais visíveis */
+.instagram-logo:hover {
+  opacity: 0.8;
+}
